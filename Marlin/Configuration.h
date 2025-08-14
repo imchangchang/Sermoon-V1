@@ -2476,7 +2476,7 @@
 /**
  * enable/disable debug function
  */
-#define ENABLE_DEBUG_FUNC     1     /* 0:disable, 1:enable */
+#define ENABLE_DEBUG_FUNC     0     /* 0:disable, 1:enable */
 
 /**
  * firmware type
@@ -2487,7 +2487,7 @@
 /**
  * firmware type selected currently
  */
-#define FIRMWARE_TYPE                       FIRTYPE_SERMOONV1_STA
+#define FIRMWARE_TYPE                       FIRTYPE_SERMOONV1_PRO
 
 #if FIRMWARE_TYPE == FIRTYPE_SERMOONV1_STA
   #define MACHINE_NAME_DWIN                   "Sermoon V1"

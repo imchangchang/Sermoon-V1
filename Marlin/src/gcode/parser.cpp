@@ -196,7 +196,7 @@ void GCodeParser::parse(char *p) {
       do { codenum *= 10, codenum += *p++ - '0'; } while (NUMERIC(*p));
 
       #if ENABLE_DEBUG_FUNC
-          gDebug.GetParaAfterCmd(p);
+          // gDebug.GetParaAfterCmd(p);
       #endif
 
       // Allow for decimal point in command
